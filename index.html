@@ -1,0 +1,488 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap By SKILLHUB</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <style>
+    .categary {
+      transition: 500ms;
+      font-size: larger;
+    }
+
+    .categary:hover {
+      background-color: white;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <div class="collapse alert alert-primary mb-0" id="nav-search">
+    <div class="container">
+
+      <div class="input-group">
+        <input type="text" placeholder="Search OfferKart" class="form-control">
+        <button type="button" class="btn btn-primary btn-md">
+          <i class="bi bi-search"></i>
+        </button>
+      </div>
+
+      <div class="grid text-primary">
+        <h5 class="my-3">Quick Start </h5>
+        <div class="row">
+          <div class="col-sm-3">
+
+            <a class="d-block mt-2 text-decoration-none" href="">
+              <i class="bi bi-chevron-right"></i> Link</a>
+            <a class="d-block mt-2 text-decoration-none" href="">
+              <i class="bi bi-chevron-right"></i> Link</a>
+            <a class="d-block mt-2 text-decoration-none" href="">
+              <i class="bi bi-chevron-right"></i> Link</a>
+            <a class="d-block mt-2 text-decoration-none" href="">
+              <i class="bi bi-chevron-right"></i> Link</a>
+          </div>
+          <div class="col-sm-3">
+
+            <a class="d-block mt-2 text-decoration-none" href="">
+              <i class="bi bi-chevron-right"></i> Link</a>
+            <a class="d-block mt-2 text-decoration-none" href="">
+              <i class="bi bi-chevron-right"></i> Link</a>
+            <a class="d-block mt-2 text-decoration-none" href="">
+              <i class="bi bi-chevron-right"></i> Link</a>
+            <a class="d-block mt-2 text-decoration-none" href="">
+              <i class="bi bi-chevron-right"></i> Link</a>
+          </div>
+          <div class="col-6">
+            <div class="card">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <img class="img-fluid"
+                      src="//i.dell.com/is/image/DellContent//content/dam/ss2/product-images/dell-client-products/notebooks/latitude-notebooks/14-3420/media-gallery/peripherals_laptop_latitude_3420nt_gallery_3.psd?fmt=pjpg&pscan=auto&scl=1&wid=3635&hei=2548&qlt=100,1&resMode=sharp2&size=3635,2548&chrss=full&imwidth=5000"
+                      alt="">
+                  </div>
+                  <div class="col-sm-6">
+                    <h4>Featured Item</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <button type="button" class="btn btn-sm btn-outline-primary">Shop Now
+                      <i class="bi bi-chevron-right"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">SKILLHUB</a>
+      <button class="navbar-toggler" type="button" data-bs-target="#navbarNavAltMarkup">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <div class="dropdown">
+            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1"
+              data-bs-toggle="collapse" data-bs-target="#m">
+              Menu
+            </button>
+          </div>
+        </div>
+
+        <div class="ms-auto">
+          <button type="button" class="btn btn-outline-light" data-bs-toggle="collapse" data-bs-target="#nav-search">
+            <i class="bi bi-search"></i>
+          </button>
+          <button type="button" class="btn btn-outline-light" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasExample">
+            <i class="bi bi-cart"></i>
+          </button>
+          <button type="button" class="btn btn-light" data-bs-toggle="offcanvas" data-bs-target="#log">Login
+            <i class="bi bi-lock"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar end -->
+
+
+  <div class="offcanvas offcanvas-end" id="offcanvasExample">
+    <div class="offcanvas-header bg-primary text-light">
+
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel ">Cart</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div class="offcanvas-body alert alert-primary mb-0">
+      <div class="card">
+        <div class="card-body">
+          <div class="container">
+
+            <div class="row">
+              <div class="col-3"><img class="img-fluid"
+                  src="https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-15-9520/media-gallery/black/laptop-xps-9520-t-black-gallery-4.psd?fmt=pjpg&pscan=auto&scl=1&wid=3491&hei=2077&qlt=100,1&resMode=sharp2&size=3491,2077&chrss=full&imwidth=5000"
+                  alt="">
+              </div>
+              <div class="col-6">Dell xps 13 pro
+                <br>Lorem ipsum dolor sit amet.
+              </div>
+              <div class="col-3"><strong>₹99,999</strong></div>
+              <p class="text-success">You will Save <strong>₹14788</strong> on this order</p>
+              <div class="btn-group" role="group">
+                <button type="button" class="btn btn-outline-success"><i class="bi bi-download"></i></button>
+                <button type="button" class="btn btn-outline-warning"><i class="bi bi-heart"></i></button>
+                <button type="button" class="btn btn-outline-danger"><i class="bi bi-trash"></i></button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="container mb-5">
+
+          <div class="row">
+            <div class="col-3"><img class="img-fluid"
+                src="https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-15-9520/media-gallery/black/laptop-xps-9520-t-black-gallery-4.psd?fmt=pjpg&pscan=auto&scl=1&wid=3491&hei=2077&qlt=100,1&resMode=sharp2&size=3491,2077&chrss=full&imwidth=5000"
+                alt="">
+            </div>
+            <div class="col-6">Dell xps 13 pro
+              <br>Lorem ipsum dolor sit amet.
+            </div>
+            <div class="col-3"><strong>₹99,999</strong></div>
+            <p class="text-success">You will Save <strong>₹14788</strong> on this order</p>
+            <div class="btn-group">
+              <button type="button" class="btn btn-outline-success"><i class="bi bi-download"></i></button>
+              <button type="button" class="btn btn-outline-warning"><i class="bi bi-heart"></i></button>
+              <button type="button" class="btn btn-outline-danger "><i class="bi bi-trash"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="card mt-3 p-4">
+        <div class="card-body">
+          <p class="text-secondary" data-bs-toggle="collapse" data-bs-target="#coupon">I have coupon</p>
+          <div id="coupon" class="collapse">
+
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Username">
+              <button type="button" class="btn btn-primary">Apply</button>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-between">
+          <span>Price</span>
+          <span><strong>₹8546</strong></span>
+        </div>
+        <div class="d-flex justify-content-between">
+          <span>Gst tax</span>
+          <span><strong>₹654</strong></span>
+        </div>
+        <div class="d-flex justify-content-between">
+          <span>total</span>
+          <span><strong>₹31544</strong></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- <div class="container alert alert-primary">
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="d-flex gap-3 categary px-4 py-2">
+          <i class="bi bi-laptop fs-1"> </i>
+          <div>
+            <p><strong>Laptops</strong></p>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+
+  <!-- menu collapse start -->
+  <div class="collapse" id="m">
+    <div class="alert alert-primary p-5 border-bottom border-4 border-primary">
+      <div class="row categary">
+        <div class="col-sm-4 d-flex gap-3">
+          <i class="bi bi-laptop fs-1"> </i>
+          <div>
+            <strong>Laptops</strong>
+            <p>Hp laptop 15sgrddu</p>
+          </div>
+        </div>
+        <div class="col-sm-4 d-flex gap-3">
+          <i class="bi bi-pc-display fs-1"></i>
+          <div>
+            <strong>Desktop</strong>
+            <p>Dell desktop 545 </p>
+          </div>
+        </div>
+        <div class="col-sm-4 d-flex gap-3">
+          <i class="bi bi-device-hdd fs-1"> </i>
+          <div>
+            <strong> SSD</strong>
+            <p>Western Digital 240GB SSD</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4 d-flex gap-3">
+          <i class="bi bi-router fs-1"></i>
+          <div>
+            <strong>Routers</strong>
+            <p>Airtel 5G network</p>
+          </div>
+        </div>
+        <div class="col-sm-4 d-flex gap-3">
+          <i class="bi bi-mouse fs-1"> </i>
+          <div>
+            <strong>mouse</strong>
+            <p>Hp wireless mouse</p>
+          </div>
+        </div>
+        <div class="col-sm-4 d-flex gap-3">
+          <i class="bi bi-memory fs-1"> </i>
+          <div>
+            <strong>RAM</strong>
+            <p>8GB RAM</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- menu collapse end -->
+
+  <!-- carousel start -->
+  <div class="carousel slide mt-5" data-bs-ride="carousel" data-bs-interval="1500">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 text-end"><img
+                src="https://rukminim1.flixcart.com/image/416/416/l5bd5zk0/computer/o/l/w/15-fa0353tx-gaming-laptop-hp-original-imaggytdx6zpv6qg.jpeg?q=70"
+                alt="" class="img-fluid">
+            </div>
+            <div class="col-sm-6">
+              <h4>HP Victus Core i5 12th Gen - (8 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce GTX
+                1650/144 Hz) 15-fa0070TX Gaming Laptop (15.6 Inch, Performance Blue, 2.37 Kg, With MS Office)</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse excepturi sint doloremque! Modi quae non
+                vero veritatis, earum tempora. Quia!</p>
+              <button type="button" class="btn btn-primary">Shop Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 text-end">
+              <img
+                src="https://rukminim1.flixcart.com/image/416/416/kwv0djk0/computer/2/u/m/16-e0162ax-gaming-laptop-hp-original-imag9g7ytxnpfvxh.jpeg?q=70"
+                alt="" class="img-fluid">
+            </div>
+            <div class="col-sm-6">
+              <h4>
+                HP Victus Core i5 11th Gen - (8 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce GTX 1650)
+                16-d0310TX Gaming Laptop (16.1 Inch, Mica Silver, 2.48 Kg, With MS Office)
+              </h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse excepturi sint doloremque! Modi quae non
+                vero veritatis, earum tempora. Quia!</p>
+              <button type="button" class="btn btn-primary">Shop Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- carousel end -->
+
+
+  <!-- features start -->
+  <div class="bg-primary py-4">
+    <div class="d-flex container justify-content-between">
+      <div class="text-light d-flex gap-3">
+        <i class="bi bi-credit-card fs-1"></i>
+        <div>
+          <h6>Secure Checkout</h6>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+      <div class="text-light d-flex gap-3">
+        <i class="bi bi-credit-card fs-1"></i>
+        <div>
+          <h6>Secure Checkout</h6>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+      <div class="text-light d-flex gap-3">
+        <i class="bi bi-credit-card fs-1"></i>
+        <div>
+          <h6>Secure Checkout</h6>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- features end -->
+
+
+
+  <!-- product start -->
+  <div class="container mt-4 d-flex justify-content-between align-items-center">
+    <p class="fs-1"> Featured Products</p>
+    <button type="button" class="btn btn-primary btn-sm">View All</button>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body">
+            <div class="d-flex">
+              <div><img
+                  src="https://rukminim1.flixcart.com/image/312/312/xif0q/computer/j/y/9/-original-imagp7pfaztvgxv3.jpeg?q=70"
+                  alt="" class="img-fluid w-75"></div>
+              <div class="w-50">
+                <img
+                  src="https://rukminim1.flixcart.com/image/416/416/xif0q/computer/s/s/q/14s-dy2508tu-thin-and-light-laptop-hp-original-imaggvehufgxyhmt.jpeg?q=70"
+                  alt="" class="img-fluid w-75">
+                <img src="https://m.media-amazon.com/images/I/81yI0+soK7L._SX522_.jpg" alt="" class="img-fluid w-75">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <div class="d-flex justify-content-between">
+            <strong>MSI Zeta</strong>
+            <p class="text-success">Starting price <strong>₹54412/-</strong></p>
+          </div>
+          <button type="button" class="btn btn-outline-primary w-100">Shop Now</button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+
+              <span class="badge text-bg-success">Most popular</span>
+              <i class="bi bi-heart"></i>
+            </div>
+          </div>
+          <div class="text-center">
+            <img
+              src="https://rukminim1.flixcart.com/image/612/612/klzhq4w0/router/l/n/j/archer-c6-v3-tp-link-original-imagyzebqnmp67y7.jpeg?q=70"
+              alt="" class="img-fluid w-50">
+            <p>Router</p>
+            <p class="text-success">Starting From <strong>₹1200/-</strong></p>
+            <i class="text-warning bi bi-star-fill"></i>
+            <i class="text-warning bi bi-star-fill"></i>
+            <i class="text-warning bi bi-star-fill"></i>
+            <i class="text-warning bi bi-star-fill"></i>
+            <i class="text-warning bi bi-star-half"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+
+              <span class="badge text-bg-success">Most popular</span>
+              <i class="bi bi-heart"></i>
+            </div>
+          </div>
+          <div class="text-center">
+            <img src="https://m.media-amazon.com/images/I/31kB8DGcdPL._SX300_SY300_QL70_FMwebp_.jpg" alt=""
+              class="img-fluid">
+            <p>Western Digital WD Green SN350 NVMe 240GB, Upto 2400MB/s, 3 Y Warranty</p>
+            <p class="text-success">Starting From <strong> ₹1639/-</strong></p>
+            <i class="text-warning bi bi-star-fill"></i>
+            <i class="text-warning bi bi-star-fill"></i>
+            <i class="text-warning bi bi-star-fill"></i>
+            <i class="text-warning bi bi-star-fill"></i>
+            <i class="text-warning bi bi-star-half"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <!-- product end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- login page start -->
+  <div class="offcanvas offcanvas-end" id="log">
+    <div class="offcanvas-header bg-primary text-light">
+      Secure login
+    </div>
+    <div class="offcanvas-body alert alert-primary">
+
+      <div class="card">
+        <div class="card-header">Login</div>
+        <div class="card-body">
+          <div>
+            <label for="email" class="form-label">First Email</label>
+            <input type="text" class="form-control" id="email" placeholder="Enter Your Email" />
+            <div class="valid-feedback">Looks good!</div>
+            <div class="invalid-feedback">Please choose a username.</div>
+          </div>
+          <div class="mt-2">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control" id="password" placeholder="Enter Your Password" />
+            <div class="valid-feedback">Looks good!</div>
+            <div class="invalid-feedback">Please choose a username.</div>
+          </div>
+          <button type="button" class="btn btn-primary w-100 mt-3 ">
+            Login
+          </button>
+          <p class="text-center mt-3">
+            Dont Have Account? <a href="#">Create Account</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- login page end -->
+
+
+
+
+  <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
