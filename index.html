@@ -17,6 +17,10 @@
       background-color: white;
       cursor: pointer;
     }
+
+    .m {
+      margin-left: 200px;
+    }
   </style>
   <link rel="manifest" href="manifest.json">
 
@@ -24,7 +28,7 @@
 
 <body>
 
-
+  <!-- collapse search start -->
   <div class="collapse alert alert-primary mb-0" id="nav-search">
     <div class="container">
 
@@ -80,22 +84,19 @@
               </div>
             </div>
           </div>
-
         </div>
-
-
       </div>
-
     </div>
   </div>
+  <!-- collapse search end  -->
 
 
-
-  <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+  <!-- navbar start -->
+  <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
     <div class="container">
-      <a class="navbar-brand" href="#">Shopping center</a>
+      <a class="navbar-brand" href="#"><strong class="text-warning">Shopping center</strong></a>
       <button class="navbar-toggler" type="button" data-bs-target="#navbarNavAltMarkup">
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon "></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
@@ -124,7 +125,7 @@
   </nav>
   <!-- navbar end -->
 
-
+  <!-- offcanvas start -->
   <div class="offcanvas offcanvas-end" id="offcanvasExample">
     <div class="offcanvas-header bg-primary text-light">
 
@@ -137,14 +138,14 @@
           <div class="container">
 
             <div class="row">
-              <div class="col-3"><img class="img-fluid"
+              <div class="col-sm-3"><img class="img-fluid"
                   src="https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-15-9520/media-gallery/black/laptop-xps-9520-t-black-gallery-4.psd?fmt=pjpg&pscan=auto&scl=1&wid=3491&hei=2077&qlt=100,1&resMode=sharp2&size=3491,2077&chrss=full&imwidth=5000"
                   alt="">
               </div>
-              <div class="col-6">Dell xps 13 pro
+              <div class="col-sm-6">Dell xps 13 pro
                 <br>Lorem ipsum dolor sit amet.
               </div>
-              <div class="col-3"><strong>₹99,999</strong></div>
+              <div class="col-sm-3"><strong>₹99,999</strong></div>
               <p class="text-success">You will Save <strong>₹14788</strong> on this order</p>
               <div class="btn-group" role="group">
                 <button type="button" class="btn btn-outline-success"><i class="bi bi-download"></i></button>
@@ -158,14 +159,14 @@
         <div class="container mb-5">
 
           <div class="row">
-            <div class="col-3"><img class="img-fluid"
+            <div class="col-sm-3"><img class="img-fluid"
                 src="https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-15-9520/media-gallery/black/laptop-xps-9520-t-black-gallery-4.psd?fmt=pjpg&pscan=auto&scl=1&wid=3491&hei=2077&qlt=100,1&resMode=sharp2&size=3491,2077&chrss=full&imwidth=5000"
                 alt="">
             </div>
-            <div class="col-6">Dell xps 13 pro
+            <div class="col-sm-6">Dell xps 13 pro
               <br>Lorem ipsum dolor sit amet.
             </div>
-            <div class="col-3"><strong>₹99,999</strong></div>
+            <div class="col-sm-3"><strong>₹99,999</strong></div>
             <p class="text-success">You will Save <strong>₹14788</strong> on this order</p>
             <div class="btn-group">
               <button type="button" class="btn btn-outline-success"><i class="bi bi-download"></i></button>
@@ -175,7 +176,7 @@
           </div>
         </div>
       </div>
-
+      <!-- offcanvas end -->
 
 
       <div class="card mt-3 p-4">
@@ -223,50 +224,52 @@
 
   <!-- menu collapse start -->
   <div class="collapse" id="m">
-    <div class="alert alert-primary p-5 border-bottom border-4 border-primary">
-      <div class="row categary">
-        <div class="col-sm-4 d-flex gap-3">
-          <i class="bi bi-laptop fs-1"> </i>
-          <div>
-            <strong>Laptops</strong>
-            <p>Hp laptop 15sgrddu</p>
+    <div class="alert alert-primary border-4 border-bottom border-primary">
+      <div class="p-5 m">
+        <div class="row">
+          <div class="col-sm-4 d-flex gap-3 categary w-25">
+            <i class="bi bi-laptop fs-1"></i>
+            <div>
+              <strong>Laptops</strong>
+              <p>Hp laptop 15sgrddu</p>
+            </div>
+          </div>
+          <div class="col-sm-4 d-flex gap-3 categary w-25">
+            <i class="bi bi-pc-display fs-1"></i>
+            <div>
+              <strong>Desktop</strong>
+              <p>Dell desktop 545 </p>
+            </div>
+          </div>
+          <div class="col-sm-4 d-flex gap-3 categary w-25">
+            <i class="bi bi-device-hdd fs-1"></i>
+            <div>
+              <strong> SSD</strong>
+              <p>Western Digital 240GB SSD</p>
+            </div>
           </div>
         </div>
-        <div class="col-sm-4 d-flex gap-3">
-          <i class="bi bi-pc-display fs-1"></i>
-          <div>
-            <strong>Desktop</strong>
-            <p>Dell desktop 545 </p>
+        <div class="row">
+          <div class="col-sm-4 d-flex gap-3 categary w-25">
+            <i class="bi bi-router fs-1"></i>
+            <div>
+              <strong>Routers</strong>
+              <p>Airtel 5G network</p>
+            </div>
           </div>
-        </div>
-        <div class="col-sm-4 d-flex gap-3">
-          <i class="bi bi-device-hdd fs-1"> </i>
-          <div>
-            <strong> SSD</strong>
-            <p>Western Digital 240GB SSD</p>
+          <div class="col-sm-4 d-flex gap-3 categary w-25">
+            <i class="bi bi-mouse fs-1"> </i>
+            <div>
+              <strong>mouse</strong>
+              <p>Hp wireless mouse</p>
+            </div>
           </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-4 d-flex gap-3">
-          <i class="bi bi-router fs-1"></i>
-          <div>
-            <strong>Routers</strong>
-            <p>Airtel 5G network</p>
-          </div>
-        </div>
-        <div class="col-sm-4 d-flex gap-3">
-          <i class="bi bi-mouse fs-1"> </i>
-          <div>
-            <strong>mouse</strong>
-            <p>Hp wireless mouse</p>
-          </div>
-        </div>
-        <div class="col-sm-4 d-flex gap-3">
-          <i class="bi bi-memory fs-1"> </i>
-          <div>
-            <strong>RAM</strong>
-            <p>8GB RAM</p>
+          <div class="col-sm-4 d-flex gap-3 categary w-25">
+            <i class="bi bi-memory fs-1"> </i>
+            <div>
+              <strong>RAM</strong>
+              <p>8GB RAM</p>
+            </div>
           </div>
         </div>
       </div>
@@ -430,19 +433,6 @@
   </div>
   </div>
   <!-- product end -->
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
